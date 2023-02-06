@@ -10,6 +10,7 @@ function Navbar() {
         <Link to={'/products'}>
             <span>Products</span>
         </Link>
+        <span className='cartTotal'>0</span>
     </div>
   )
 }
