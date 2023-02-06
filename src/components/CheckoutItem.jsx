@@ -7,7 +7,6 @@ function CheckoutItem(props) {
       <img src={props.item.images[0]} className="checkoutImage" />
       <span className='checkoutTitle'>{props.item.title}</span>
       <span className='checkoutPrice'>${props.item.price}.00</span>
-      {/* <span className='checkoutAmount'>1</span> */}
       <button>remove</button>
     </div>
     </>
